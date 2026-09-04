@@ -1,1 +1,20 @@
-src/main/resources/fabric.mod.json
+{
+  "schemaVersion": 1,
+  "id": "jumprest",
+  "version": "${version}",
+  "name": "Jump Reset Training",
+  "description": "A client-side training utility for practicing jump-resetting mechanics",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.jumprest.JumpResetMod"]
+  },
+  "mixins": ["jumprest.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric-api": ">=0.88.0",
+    "minecraft": ">=1.20",
+    "java": ">=17"
+  }
+}
