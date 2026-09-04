@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.jumprest.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["ClientPlayerEntityMixin"],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "plugin": "com.example.jumprest.mixin.JumpResetMixinConfig"
+}
